@@ -2,7 +2,7 @@
 *{
   box-sizing: border-box;
   background-color: #FEFFBB;
-  font-family: "Monaco",monospace;
+  font-family: "Lucida Handwriting",cursive;
   }
 
 
@@ -12,7 +12,7 @@ h1{
   padding-bottom:50px;
 }
 
-.content {
+.content1, .content2, .content3 {
   border: 2px solid Black;
   margin: 15px;
   height: auto;
@@ -22,24 +22,29 @@ h1{
 
 .topic1, .topic2, .topic3{
   border: 1px solid Black;
-  height: 20px;
+  height: 24px;
   width: 25%;
   position: relative;
   left:75%;
-  padding: 1px;
+  padding-bottom: 5px;
   text-align: center;
   font-weight: bold;
-}
-.topic1{
-  background-color: #FF9E89;
-}
-
-.topic2{
-  background-color: #FF4D00;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 3px 3px;
+  opacity: 0.8;
+  margin-bottom: 5px;
 }
 
-.topic3{
-  background-color: #FFD519;
+.content1{
+  background-color: #FF9933;
+}
+
+.content2{
+  background-color: #FFFFFF;
+}
+
+.content3{
+  background-color: #138808;
 }
 .row{
     width: 100%;
